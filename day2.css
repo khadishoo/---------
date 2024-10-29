@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+}
+
+body{
+    height: 2000px;
+}
+
+header{
+    background-color: black;
+    padding: 16px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
+
+nav{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    column-gap: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #a0a0a0;
+}
+
+.silteme-korap:hover{
+    color: #fff;
+}
+
+.watch{
+    color: #fff;
+    background: linear-gradient(90deg, rgba(216,42,238,1) 44%, rgba(0,87,255,1) 100%);
+    padding: 13px;
+    border-radius: 40px;
+    width: 40%;
+    text-align: center;
+    font-size: 14px;
+    transition-duration: 0.5s;
+}
+
+.watch:hover{
+    transform: scale(1.1);
+    opacity: 85%;
+}
+
+.smotret{
+    color: #fff;
+    background: linear-gradient(90deg, rgba(238,170,42,1) 63%, rgba(255,243,0,1) 100%);
+    padding: 13px;
+    border-radius: 40px;
+    display: flex;
+    text-align: center;
+    font-size: 14px;
+    transition-duration: 0.5s;
+}
+
+.afisha-img
+
+.smotret:hover{
+    transform: scale(1.1);
+    opacity: 85%;
+}
+
+.right{
+    margin-left: auto;
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
+.afisha-img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover; hereeeee
+}
+
+.afisha{
+    padding-top: 120px;
+    position: relative;
+    padding-top: 130px;
+}
+
+main{
+    margin: 0 80px;
+    width: 82%;
+}
+
+.box{
+    display: flex;
+    background-color: hsla(0,0%,100%,.15);
+    width: 300px;
+    height: 40px;
+    position: relative;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.input-btn{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 7px;
+}
+
+.input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.input:focus{
+    background-color: gray;
+}
+
+.afisha-content{
+    position: absolute;
+    margin: 0;
+    bottom: 110px;
+    left: 50px;
+    color: beige;
+}
+
+.afisha-title{
+    margin: 15px 0;
+}
+
+.bas{
+    display: flex;
+}
+
+aside{
+    border-right: 2px solid;
+    height: 100vh;
+    background-color: rgb(112, 112, 112);
+    padding-top: 130px;
+    width: 18%;
+    color: #fff;
+}
+
+ul{
+    list-style: none;
+}
+
+.kino-box{
+    display: grid;
+    gap: 10px;
+}
+
+.kino{
+    margin-top: 120px;
+}
+
+.dino{
+    width: 100%;
+    height: 350px;
+    column-gap: 15px;
+    row-gap: 8px;
+}
+
+.nav-box{
+    display: flex;
+    flex-direction: row;
+    column-gap: 22px;
+}
+
+.silteme-korap{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.silteme-korap a{
+    color: #a0a0a0;
+}
+
+.silteme-korap a:hover{
+    color: #fff;
+}
+
+.kino-suret{
+    width: 100%;
+    height: 70%;
+    /* object-fit: cover; */
+}
+
+@media(min-width:576px){
+    .kino-box{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width:768px){
+    .kino-box{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(min-width:1024px){
+    .kino-box{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

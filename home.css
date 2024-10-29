@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(214, 255, 233);
+    height: 200000px;
+    position: relative;
+}
+
+a{
+    color: darkcyan;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(149, 255, 255);
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+    width: 100%;
+}
+
+.text{
+    margin-top: 200px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 10px double black;
+    border-radius: 15px;
+    background-color: rgb(69, 69, 174);
+    position: absolute;
+    text-align: center;
+    width: 60%;
+    padding: 20px;
+}
+
+.footer{
+    width: 150px;
+    height: 150px;
+    border: 2px solid gold;
+    border-radius: 100%;
+    text-align: center;
+}
